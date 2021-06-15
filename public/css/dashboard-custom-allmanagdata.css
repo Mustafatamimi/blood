@@ -1,0 +1,164 @@
+
+
+                   .search-wrapper{
+                    border: 1px solid #ccc;
+                    border-radius: 30px;
+                    height:35px;
+                    display: flex;
+                    align-items: center;
+                    overflow-x: hidden;
+                    margin-bottom: 5px;
+                     }
+                 .search-wrapper i{
+                        padding: 0rem 1rem;
+                          }
+                   .search-wrapper input{
+                      height:100%;
+                      border: none;
+                      outline: hidden;
+                  }
+                 .table-title{
+                    margin:5px;
+                    padding-top:10px;
+                    padding-bottom:10px;
+                    background: linear-gradient(225deg,#ef1e63,#03a9f4);
+                    background: -o-linear-gradient(225deg,#e91e63,#03a9f4);
+                    background: -webkit-linear-gradient(225deg,#e91e63,#03a9f4);
+                    background: -moz-linear-gradient(225deg,#e91e63,#03a9f4);
+                    box-shadow: 0 2px 4px rgba(0,0,0,0.247);
+                    border-radius: 1px;
+                    font-size: 14px;
+
+                   }
+                .table-title .oper a i{
+                 margin: 5px;
+                  }
+                .table-title .oper a.allDelHospital{
+                     display: none;
+                 }
+                .table-title .oper a.allDelDonor{
+                    display: none;
+                 }
+                .table-title .oper a.allDelSeeker{
+                   display: none;
+                 }   
+                 .table-title .oper a.allDelEmployee{
+                    display: none;
+                  }    
+                table thead{
+                    background:rgba(0,22,22,0.22);
+                   
+                }
+                table tbody tr:nth-of-type(odd){
+                    background:#fcfcfc;
+                   
+                }
+
+                .profile-option{
+                    width: 40px;
+                    height: 40px;
+                    background-color:rgba(236, 35, 37, 0.644);
+                    position:absolute;
+                    left: 20px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    cursor:pointer;
+                    -webkit-transition: all .4s ease-in-out;
+                    -moz-transition: all .4s ease-in-out;
+                    -o-transition: all .4s ease-in-out;
+                    transition: all .4s ease-in-out;
+                    outline: none;
+                }
+                
+                .profile-option:hover{
+                    background-color: #fff;
+                    border: 1px solid rgba(236, 35, 37, 0.644);
+                }
+                
+                 .profile-option .notifcation i{
+                 color: #fff;
+                 font-size: 1.2rem;
+                 -webkit-transition: all .4s ease-in-out;
+                 -moz-transition: all .4s ease-in-out;
+                 -o-transition: all .4s ease-in-out;
+                  transition: all .4s ease-in-out;
+                }
+                .profile-option:hover .notifcation i{
+                    color: var(--main--color);
+                } 
+                .profile-option .alert-message{
+                  position: absolute;
+                  top:-5px;
+                  left: -5px;
+                  color:rgba(236, 35, 37, 0.644);
+                  background-color: #fff;
+                  border: 1px solid ;
+                  padding:5px;
+                  border-radius: 50%;
+                  height: 20px;
+                  width: 20px;
+                  display: flex;
+                  justify-content: center;
+                  font-size: .8rem;
+                  align-items: center;
+                  font-weight: bold;
+                } 
+               
+
+               .modal-content .modal-header button{
+                   float: left;
+                   color: red;
+               }
+               .modal-content .modal-header button:hover{
+               background-color:rgba(288, 0, 72, 0.2);
+               }
+               .modal-content .modal-header h4{
+                   font-size: 22px;
+                   float: right;
+                   margin-left: 20px;
+                   color:green;
+                   font-weight: bold;
+               }
+               .modal-content .modal-header h3{
+                   font-size: 22px;
+                   float: right;
+                   margin-left: 20px;
+                   color:red;
+                   font-weight: bold;
+               }
+               .modal-content .modal-body .inputBx label{
+                   font-size: 16px;
+                   margin-bottom: 8px;
+                   color:rgba(288, 0, 72, 0.9);
+                   font-weight: bold;
+                   letter-spacing: 1px;
+                   float: right;
+               }
+               .modal-content .modal-body .inputBx input{
+                   margin:4px 6px;
+                   padding: 10px 10px;
+                   outline: none;
+                   font-size: 16px;
+                   letter-spacing: 1px;
+                   color: #607d8b;
+                   background: transparent;
+                   border-radius: 30px;
+               }
+           .modal-content .modal-footer .inputBx{
+               float: right;
+           }
+           .modal-content .modal-footer .inputBx input[type="submit"],
+           .modal-content .modal-footer .inputBx button
+           {
+               color: #fff;
+               font-weight: bold;
+               cursor: pointer;
+               border: none;
+               outline: none;
+               font-weight:bold ;
+               letter-spacing: 1px;  
+           } 

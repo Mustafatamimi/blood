@@ -1,0 +1,37 @@
+.upper-bar{
+    background-color: #08526d;
+    color:#fff;
+    }
+    
+    .upper-bar .info{
+       margin: 10px 0;
+        }
+    
+    @media(max-width:576px){
+        .upper-bar .info:first-child{
+            margin-bottom: 0;
+        }
+    }
+    
+    .upper-bar .text-right{
+        float:left;
+    }
+    
+    .upper-bar .text-left{
+        float: right;
+    }
+    
+    .upper-bar span{
+      color: #bfc6c9;
+    }
+    
+    .upper-bar .get-quote{
+        display: inline-block;
+        border:1px solid #ec1c23;
+        padding: 2px 10px;
+        margin-left: 20px;
+        font-weight: bold;
+       
+      }
+    
+    /* End  Upper Bar */
